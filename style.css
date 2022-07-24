@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:black;
+	color: green;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	list-style-type: none;
+}
+
+img{
+	background: url("img/avatar.jpg") no-repeat;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.hover_pls{
+	transition: 0.5s ease-in-out;
+}
+.hover_pls:hover{
+	background-color: #004000;
+	color: #C0C0C0;
+	transition: 0.5s ease-in-out;
+}
