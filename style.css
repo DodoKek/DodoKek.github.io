@@ -16,8 +16,8 @@ img{
 }
 
 .blink {
-  animation: blink-animation 1s steps(5, start) infinite;
-  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  animation: blink-animation 3s steps(5, start) infinite;
+  -webkit-animation: blink-animation 3s steps(5, start) infinite;
 }
 @keyframes blink-animation {
   to {
@@ -36,4 +36,25 @@ img{
 	background-color: #004000;
 	color: #C0C0C0;
 	transition: 0.5s ease-in-out;
+}
+
+a{
+	text-decoration: none;
+	color: green;
+}
+
+a:hover{
+	color: #C0C0C0;
+}
+
+.mw-1{
+	min-width: 550px;
+}
+
+.green-bg{
+	background-color: #005B00;
+}
+
+.avatar{
+	max-width: 200px;
 }
