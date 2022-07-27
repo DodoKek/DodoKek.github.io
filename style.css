@@ -41,14 +41,16 @@ img{
 a{
 	text-decoration: none;
 	color: green;
+	transition: 0.5s ease-in-out;
 }
 
 a:hover{
 	color: #C0C0C0;
+	transition: 0.5s ease-in-out;
 }
 
 .mw-1{
-	min-width: 5800px;
+	min-width: 580px;
 }
 
 .green-bg{
